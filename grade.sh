@@ -14,3 +14,9 @@ echo 'Finished cloning'
 
 # Then, add here code to compile and run, and do any post-processing of the
 # tests
+if [[ -e $1]] 
+then 
+    echo $1
+else 
+    echo "Error! Correct file not received!"
+fi
